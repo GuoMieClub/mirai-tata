@@ -98,7 +98,7 @@ debug: true
 
 ~~首先请自行下载[go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases)
 
-新建一个文件夹(以英文命名, eg. tata)，将`go-cqhttp.exe`放入其中并运行，使其自动生成框架相关文件和文件夹，然后关闭`go-cqhttp`，编辑`config.json`~~
+~~新建一个文件夹(以英文命名, eg. tata)，将`go-cqhttp.exe`放入其中并运行，使其自动生成框架相关文件和文件夹，然后关闭`go-cqhttp`，编辑`config.json`~~
 
 ~~**自己编辑，我也不会**~~
 
@@ -162,5 +162,5 @@ eg.
 ### 4. QA与bug
 
 QA没有，不想写。
-bug很多，也不想写
+bug很多，也不想写  
 自己[进群](https://jq.qq.com/?_wv=1027&k=5L3hY4w)问万能的群友，或者[百度](https://www.baidu.com)。
