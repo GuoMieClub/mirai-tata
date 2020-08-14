@@ -5,18 +5,18 @@ tata through mirai
 本人不会编程，本篇教程全靠手动尝试与请教大佬。如有错误，概不负责。
 獭獭的秽土转生目前主要有3种方式，皆通过mirai框架及其插件(`miraiOK`+`native`+`http`, `miraiOK`+`cqhttp-mirai`)和变体(`cqhttp-go`).
 
-###1.搭建獭獭（三选一）
+### 1. 搭建獭獭（三选一）
 
 ##### 1.1  `miraiOK`+`native`+`http` 套娃实现反向ws链接
-1)首先请自行下载[miraiOK](https://pan.baidu.com/s/1a7YKAZu1Unw0RW-u2ixxSA) (提取码: d2sv) ,[mirai-native插件](https://github.com/iTXTech/mirai-native/releases), [http插件包](https://pan.baidu.com/s/1siBnW481gnLatMzQ_ga1UA) (提取码: 22uw).
+1) 首先请自行下载[miraiOK](https://pan.baidu.com/s/1a7YKAZu1Unw0RW-u2ixxSA) (提取码: d2sv) ,[mirai-native插件](https://github.com/iTXTech/mirai-native/releases), [http插件包](https://pan.baidu.com/s/1siBnW481gnLatMzQ_ga1UA) (提取码: 22uw).
 
-2)新建一个文件夹(以英文命名, eg. tata)，将`miraiOK`放入其中并运行，使其自动生成框架相关文件和文件夹.
+2) 新建一个文件夹(以英文命名, eg. tata)，将`miraiOK`放入其中并运行，使其自动生成框架相关文件和文件夹.
 
-3)关闭`miraiOK`，将`mirai-native- *. *. *.jar`放入`plugins`文件夹，再次启动`miraiOK`，等到控制台提示登录后关闭.
+3) 关闭`miraiOK`，将`mirai-native- *. *. *.jar`放入`plugins`文件夹，再次启动`miraiOK`，等到控制台提示登录后关闭.
 
-4)将http插件包里的`http.dll` `http.json`放入`plugins\MiraiNative\plugins`文件夹，将其余文件放入`plugins\MiraiNative\libraries`文件夹.
+4) 将http插件包里的`http.dll` `http.json`放入`plugins\MiraiNative\plugins`文件夹，将其余文件放入`plugins\MiraiNative\libraries`文件夹.
 
-5)再次启动，
+5) 再次启动，
 →若在控制台提示登录的下一行出现
 >```
 >[INFO] [MiraiNative] Native Plugin (w json) CQHTTP has been loaded with code 0
@@ -27,9 +27,9 @@ tata through mirai
 >[INFO] [MiraiNative] Native Plugin (w json) CQHTTP has been loaded with code 126
 则需要补全电脑的vc库，再进行下一步.
 
-6)将从獭窝下载的`QQ号.json`文件放入`plugins\MiraiNative\data\io.github.richardchien.coolqhttpapi\config`文件夹内（有些獭窝下载的是`config.json`文件，请自行重命名）
+6) 将从獭窝下载的`QQ号.json`文件放入`plugins\MiraiNative\data\io.github.richardchien.coolqhttpapi\config`文件夹内（有些獭窝下载的是`config.json`文件，请自行重命名）
 
-7)启动`miraiOK.exe`，控制台出现登录提示后，在控制台输入
+7) 启动`miraiOK.exe`，控制台出现登录提示后，在控制台输入
 
 >login QQ账号 QQ密码
 
@@ -38,13 +38,13 @@ tata through mirai
   
 ##### 1.2 `miraiOK`+`cqhttp-mirai` 直接实现反向ws链接
 
-1)首先请自行下载[miraiOK](https://pan.baidu.com/s/1a7YKAZu1Unw0RW-u2ixxSA) (提取码: d2sv),[cqhttp-mirai插件](https://github.com/yyuueexxiinngg/cqhttp-mirai/releases)
+1) 首先请自行下载[miraiOK](https://pan.baidu.com/s/1a7YKAZu1Unw0RW-u2ixxSA) (提取码: d2sv),[cqhttp-mirai插件](https://github.com/yyuueexxiinngg/cqhttp-mirai/releases)
 
-2)新建一个文件夹(以英文命名, eg. tata)，将`miraiOK.exe`放入其中并运行，使其自动生成框架相关文件和文件夹.
+2) 新建一个文件夹(以英文命名, eg. tata)，将`miraiOK.exe`放入其中并运行，使其自动生成框架相关文件和文件夹.
 
-3)关闭`miraiOK`，将`cqhttp-mirai-. *. * -all.jar`放入`plugins`文件夹，再次启动`miraiOK.exe`，等到控制台提示登录后关闭.
+3) 关闭`miraiOK`，将`cqhttp-mirai-. *. * -all.jar`放入`plugins`文件夹，再次启动`miraiOK.exe`，等到控制台提示登录后关闭.
 
-4)根据一下格式更改`plugins\CQHTTPMirai\setting.yml`文件内容（多余项直接删除）。
+4) 根据一下格式更改`plugins\CQHTTPMirai\setting.yml`文件内容（多余项直接删除）。
 ``` yaml
 # 本文件只测试了主窝 食材村（笔窝） 风窝，其他窝不一定适用，请自行尝试
 debug: true
@@ -81,7 +81,7 @@ debug: true
 # 本文件只测试了主窝 食材村（笔窝） 风窝，其他窝不一定适用，请自行尝试
 ```
 
-5)保存后启动`miraiOK.exe`，控制台出现登录提示后，在控制台输入
+5) 保存后启动`miraiOK.exe`，控制台出现登录提示后，在控制台输入
 
 >login QQ账号 QQ密码
 
@@ -94,7 +94,7 @@ debug: true
 ```
 信息根据窝的不同，会有差异。  
 
-#####~~1.3 `cqhttp-go` 直接实现反向ws链接~~
+##### ~~1.3 `cqhttp-go` 直接实现反向ws链接~~
 
 ~~首先请自行下载[go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases)
 
@@ -105,7 +105,7 @@ debug: true
 ~~保存后启动`go-cqhttp.exe`即可。~~
 
 
-###2.自动登录
+### 2. 自动登录
 
 打开miraiOK**根目录**下的config.txt，会看到以下内容
 ```
@@ -145,21 +145,21 @@ eg.
 
 即可在登录成功，插件加载完成后向12332112345发送hello_world
 
-###3. 更新
+### 3. 更新
 
-#####3.1 `miraiOK`+`native`+`http` 更新方式
+##### 3.1 `miraiOK`+`native`+`http` 更新方式
 
 关闭`miraiOK`，下载新的`mirai-native- *. *. *.jar`，将旧的删除，新的放进去，并将`plugins\MiraiNative`文件夹下的`CQP.dll`也删了，重启miraiOK.  
 
-#####3.2 `miraiOK`+`cqhttp-mirai` 更新方式
+##### 3.2 `miraiOK`+`cqhttp-mirai` 更新方式
 
 关闭`miraiOK`，下载新的`cqhttp-mirai-. *. * -all.jar`，将旧的删除，新的放进去，重启miraiOK.
 
-#####~~3.3 `cqhttp-go` 更新方式~~
+##### ~~3.3 `cqhttp-go` 更新方式~~
 
 ~~关闭`cqhttp-go`，下载新的`cqhttp-go`，将旧的删除，重启`cqhttp-go` （大概）~~
 
-###4. QA与bug
+### 4. QA与bug
 
 QA没有，不想写。
 bug很多，也不想写
