@@ -122,9 +122,8 @@ say 655057127 MiraiOK_published!
 这些内容不用管，直接在最后加上 
 >login QQ账号 QQ密码
 
-并回车，保存文件即可实现自动登录。
- eg.
-
+并回车，保存文件即可实现自动登录。  
+eg.  
 ```
 #DEBUG
 #NOUPDATE
