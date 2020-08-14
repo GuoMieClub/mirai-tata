@@ -8,7 +8,7 @@ tata through mirai
 ### 1. 搭建獭獭（三选一）
 
 ##### 1.1  `miraiOK`+`native`+`http` 套娃实现反向ws链接
-1) 首先请自行下载[miraiOK](https://pan.baidu.com/s/1a7YKAZu1Unw0RW-u2ixxSA) (提取码: d2sv) ,[mirai-native插件](https://github.com/iTXTech/mirai-native/releases), [http插件包](https://pan.baidu.com/s/1siBnW481gnLatMzQ_ga1UA) (提取码: 22uw).
+1) 首先请自行下载[miraiOK](https://github.com/yimo0908/mirai-tata/raw/master/miraiOK.exe), [mirai-native插件](https://github.com/iTXTech/mirai-native/releases), [http插件包](https://github.com/yimo0908/mirai-tata/raw/master/httpapi.zip).
 
 2) 新建一个文件夹(以英文命名, eg. tata)，将`miraiOK`放入其中并运行，使其自动生成框架相关文件和文件夹.
 
@@ -40,7 +40,7 @@ tata through mirai
   
 ##### 1.2 `miraiOK`+`cqhttp-mirai` 直接实现反向ws链接
 
-1) 首先请自行下载[miraiOK](https://pan.baidu.com/s/1a7YKAZu1Unw0RW-u2ixxSA) (提取码: d2sv), [cqhttp-mirai插件](https://github.com/yyuueexxiinngg/cqhttp-mirai/releases)
+1) 首先请自行下载[miraiOK](https://github.com/yimo0908/mirai-tata/raw/master/miraiOK.exe), [cqhttp-mirai插件](https://github.com/yyuueexxiinngg/cqhttp-mirai/releases)
 
 2) 新建一个文件夹(以英文命名, eg. tata)，将`miraiOK.exe`放入其中并运行，使其自动生成框架相关文件和文件夹.
 
