@@ -4,7 +4,9 @@ tata through mirai
 8.2事件后，酷Q跑路，通过酷Q搭建的獭进入死亡倒计时(有的已经死亡)。本篇教程意在帮助獭獭秽土转生。
 本人不会编程，本篇教程全靠手动尝试与请教大佬。如有错误，概不负责。
 獭獭的秽土转生目前主要有3种方式，皆通过mirai框架及其插件(`miraiOK`+`native`+`http`, `miraiOK`+`cqhttp-mirai`)和变体(`cqhttp-go`).
+
 ###1.搭建獭獭（三选一）
+
 ##### 1.1  `miraiOK`+`native`+`http` 套娃实现反向ws链接
 1)首先请自行下载[miraiOK](https://pan.baidu.com/s/1a7YKAZu1Unw0RW-u2ixxSA) (提取码: d2sv) ,[mirai-native插件](https://github.com/iTXTech/mirai-native/releases), [http插件包](https://pan.baidu.com/s/1siBnW481gnLatMzQ_ga1UA) (提取码: 22uw).
 
@@ -35,6 +37,7 @@ tata through mirai
 ————→若配置并登录成功，则会在控制台出现獭的配置信息，在`plugins\MiraiNative\data\io.github.richardchien.coolqhttpapi\log`文件夹也会出现相应日志。  
   
 ##### 1.2 `miraiOK`+`cqhttp-mirai` 直接实现反向ws链接
+
 1)首先请自行下载[miraiOK](https://pan.baidu.com/s/1a7YKAZu1Unw0RW-u2ixxSA) (提取码: d2sv),[cqhttp-mirai插件](https://github.com/yyuueexxiinngg/cqhttp-mirai/releases)
 
 2)新建一个文件夹(以英文命名, eg. tata)，将`miraiOK.exe`放入其中并运行，使其自动生成框架相关文件和文件夹.
@@ -92,14 +95,19 @@ debug: true
 信息根据窝的不同，会有差异。  
 
 #####~~1.3 `cqhttp-go` 直接实现反向ws链接~~
+
 ~~首先请自行下载[go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases)
+
 新建一个文件夹(以英文命名, eg. tata)，将`go-cqhttp.exe`放入其中并运行，使其自动生成框架相关文件和文件夹，然后关闭`go-cqhttp`，编辑`config.json`~~
+
 ~~**自己编辑，我也不会**~~
+
 ~~保存后启动`go-cqhttp.exe`即可。~~
 
+
 ###2.自动登录
-打开miraiOK**根目录**下的config.txt
-会看到以下内容
+
+打开miraiOK**根目录**下的config.txt，会看到以下内容
 ```
 #DEBUG
 #NOUPDATE
@@ -136,17 +144,23 @@ eg.
 >say 12332112345 hello_world
 
 即可在登录成功，插件加载完成后向12332112345发送hello_world
+
 ###3. 更新
+
 #####3.1 `miraiOK`+`native`+`http` 更新方式
+
 关闭`miraiOK`，下载新的`mirai-native- *. *. *.jar`，将旧的删除，新的放进去，并将`plugins\MiraiNative`文件夹下的`CQP.dll`也删了，重启miraiOK.  
 
 #####3.2 `miraiOK`+`cqhttp-mirai` 更新方式
+
 关闭`miraiOK`，下载新的`cqhttp-mirai-. *. * -all.jar`，将旧的删除，新的放进去，重启miraiOK.
 
 #####~~3.3 `cqhttp-go` 更新方式~~
+
 ~~关闭`cqhttp-go`，下载新的`cqhttp-go`，将旧的删除，重启`cqhttp-go` （大概）~~
 
 ###4. QA与bug
+
 QA没有，不想写。
 bug很多，也不想写
 自己[进群](https://jq.qq.com/?_wv=1027&k=5L3hY4w)问万能的群友，或者[百度](https://www.baidu.com)。
