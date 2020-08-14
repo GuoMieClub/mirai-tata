@@ -1,14 +1,19 @@
 # mirai-tata
 tata through mirai
+
 8.2事件后，酷Q跑路，通过酷Q搭建的獭进入死亡倒计时(有的已经死亡)。本篇教程意在帮助獭獭秽土转生。
 本人不会编程，本篇教程全靠手动尝试与请教大佬。如有错误，概不负责。
 獭獭的秽土转生目前主要有3种方式，皆通过mirai框架及其插件(`miraiOK`+`native`+`http`, `miraiOK`+`cqhttp-mirai`)和变体(`cqhttp-go`).
 ###1.搭建獭獭（三选一）
 ##### 1.1  `miraiOK`+`native`+`http` 套娃实现反向ws链接
 1)首先请自行下载[miraiOK](https://pan.baidu.com/s/1a7YKAZu1Unw0RW-u2ixxSA) (提取码: d2sv) ,[mirai-native插件](https://github.com/iTXTech/mirai-native/releases), [http插件包](https://pan.baidu.com/s/1siBnW481gnLatMzQ_ga1UA) (提取码: 22uw).
+
 2)新建一个文件夹(以英文命名, eg. tata)，将`miraiOK`放入其中并运行，使其自动生成框架相关文件和文件夹.
+
 3)关闭`miraiOK`，将`mirai-native- *. *. *.jar`放入`plugins`文件夹，再次启动`miraiOK`，等到控制台提示登录后关闭.
+
 4)将http插件包里的`http.dll` `http.json`放入`plugins\MiraiNative\plugins`文件夹，将其余文件放入`plugins\MiraiNative\libraries`文件夹.
+
 5)再次启动，
 →若在控制台提示登录的下一行出现
 >```
@@ -19,7 +24,9 @@ tata through mirai
 >```
 >[INFO] [MiraiNative] Native Plugin (w json) CQHTTP has been loaded with code 126
 则需要补全电脑的vc库，再进行下一步.
+
 6)将从獭窝下载的`QQ号.json`文件放入`plugins\MiraiNative\data\io.github.richardchien.coolqhttpapi\config`文件夹内（有些獭窝下载的是`config.json`文件，请自行重命名）
+
 7)启动`miraiOK.exe`，控制台出现登录提示后，在控制台输入
 
 >login QQ账号 QQ密码
@@ -29,8 +36,11 @@ tata through mirai
   
 ##### 1.2 `miraiOK`+`cqhttp-mirai` 直接实现反向ws链接
 1)首先请自行下载[miraiOK](https://pan.baidu.com/s/1a7YKAZu1Unw0RW-u2ixxSA) (提取码: d2sv),[cqhttp-mirai插件](https://github.com/yyuueexxiinngg/cqhttp-mirai/releases)
+
 2)新建一个文件夹(以英文命名, eg. tata)，将`miraiOK.exe`放入其中并运行，使其自动生成框架相关文件和文件夹.
+
 3)关闭`miraiOK`，将`cqhttp-mirai-. *. * -all.jar`放入`plugins`文件夹，再次启动`miraiOK.exe`，等到控制台提示登录后关闭.
+
 4)根据一下格式更改`plugins\CQHTTPMirai\setting.yml`文件内容（多余项直接删除）。
 ``` yaml
 # 本文件只测试了主窝 食材村（笔窝） 风窝，其他窝不一定适用，请自行尝试
@@ -67,6 +77,7 @@ debug: true
       # 访问口令，獭窝申请的时候的token
 # 本文件只测试了主窝 食材村（笔窝） 风窝，其他窝不一定适用，请自行尝试
 ```
+
 5)保存后启动`miraiOK.exe`，控制台出现登录提示后，在控制台输入
 
 >login QQ账号 QQ密码
