@@ -46,7 +46,7 @@ tata through mirai
 
 3) 关闭`miraiOK`，将`cqhttp-mirai-. *. * -all.jar`放入`plugins`文件夹，再次启动`miraiOK.exe`，等到控制台提示登录后关闭.
 
-4) 根据一下格式更改`plugins\CQHTTPMirai\setting.yml`文件内容（多余项直接删除）。
+4) 复制以下代码并更改`plugins\CQHTTPMirai\setting.yml`文件内容。
 ``` yaml
 # 本文件只测试了主窝 食材村(笔窝) 风窝 鸡窝，其他窝不一定适用，请自行尝试
 debug: true
