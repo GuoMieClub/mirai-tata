@@ -30,7 +30,7 @@ xiaoJ出品的学习复读机，你永远不知道他会复读什么.jpg，由�
 [unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的微博关注插件，以rss形式订阅（不够及时，但不会漏），指令：`微博关注菜单`/ `查看本群关注`/ `微博关注 微博链接`/ `取消关注 XXXX`
 ### weiboMonitor  
 [李艺彤后援会](https://jq.qq.com/?_wv=1027&k=LFBLhtYm)出品的微博监控插件（及时推送，但博主发送太频繁会漏微博），还可监控超话等  
-(请手动创立`plugins\MiraiNative\data\me.cqp.lyt.weiboMonitor`文件夹以解锁订阅限制)
+(免费版，只能监控两个目标，自己[进群](https://jq.qq.com/?_wv=1027&k=LFBLhtYm)升级高级版)
 ### welcome  
 [李艺彤后援会](https://jq.qq.com/?_wv=1027&k=LFBLhtYm)出品的入群欢迎插件
 ### what's_geng  
