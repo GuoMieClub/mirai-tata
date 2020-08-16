@@ -1,11 +1,11 @@
 ## 要加载此类插件，请先安装`Mirai Native`  , 将解压包里的`.dll`与`.json`文件放入`plugins\MiraiNative\plugins`文件夹里（需保证Microsoft Visual C++ 库安装完全）
 
 ### bili  
-[奶牛](https://jq.qq.com/?_wv=1027&k=7XzgrWs0)出品的bilibili插件，口令：订阅 追番 追番转移 online 等
+[奶牛](https://jq.qq.com/?_wv=1027&k=7XzgrWs0)出品的bilibili插件，口令：`订阅` `追番` `追番转移` `online` 等
 ### chat  
 [unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的闲聊插件，对接[腾讯AI](https://ai.qq.com/product/nlpchat.shtml)
 ### douban  
-[unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的豆瓣查分插件，指令：查评分 XXX/ 查书评 XXX/ 查影评 XXX
+[unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的豆瓣查分插件，指令：`查评分 XXX`/ `查书评 XXX`/ `查影评 XXX`
 ### dyMonitor  
 [李艺彤后援会](https://jq.qq.com/?_wv=1027&k=LFBLhtYm)出品的抖音监控插件
 ### ebook  
