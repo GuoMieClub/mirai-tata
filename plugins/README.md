@@ -9,13 +9,13 @@
 ### dyMonitor  
 [李艺彤后援会](https://jq.qq.com/?_wv=1027&k=LFBLhtYm)出品的抖音监控插件
 ### ebook  
-[unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的电子书搜书插件，指令：搜书 XXX/ 查书 XXX
+[unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的电子书搜书插件，指令：`搜书 XXX`/ `查书 XXX`
 ### feihualing  
-[unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的飞花令插件，指令：飞花令 X / 查诗 XXXXXXX  
+[unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的飞花令插件，指令：`飞花令 X` / `查诗 XXXXXXX`  
 ### learn_to_repeat  
 xiaoJ出品的学习复读机，你永远不知道他会复读什么.jpg，由于native传递问题，不支持复读图片
 ### music_download  
-[unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的下歌插件，指令：下歌 XX
+[unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的下歌插件，指令：`下歌 XX`
 ### pixiv  
 [unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的pixiv插件，由于native传递问题，不支持以图搜图  
 ### roll
