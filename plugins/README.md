@@ -17,7 +17,9 @@ xiaoJ出品的学习复读机，你永远不知道他会复读什么.jpg，由�
 ### music_download  
 [unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的下歌插件，指令：下歌 XX
 ### pixiv  
-[unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的pixiv插件，由于native传递问题，不支持以图搜图
+[unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的pixiv插件，由于native传递问题，不支持以图搜图  
+### roll
+`/roll` 然后返回一个1-100的随机值  
 ### rss  
 [unsignedzhang](https://jq.qq.com/?_wv=1027&k=d81JMT2a)出品的rss订阅插件，支持atom格式的rss链接
 ### rsshub  
