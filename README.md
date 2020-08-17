@@ -29,7 +29,41 @@ tata through mirai
 >```
 则需要补全电脑的vc库，再进行下一步.
 
-6) 将从獭窝下载的`QQ号.json`文件放入`plugins\MiraiNative\data\io.github.richardchien.coolqhttpapi\config`文件夹内（有些獭窝下载的是`config.json`文件，请自行重命名）
+6) 更改`plugins\MiraiNative\data\io.github.richardchien.coolqhttpapi\config`文件夹内的`QQ号.json`文件  
+"ws_reverse_url": "`獭窝ws地址`"  
+"post_url": "`塔塔露のurl`"  
+"access_token": "`你在獭窝申请獭獭的token`"  
+"secret": "`你在獭窝申请獭獭的token`"
+
+>``` json
+>{
+>    "host": "0.0.0.0",
+>    "port": 5700,
+>    "use_http": false,
+>    "ws_host": "0.0.0.0",
+>    "ws_port": 6700,
+>    "use_ws": false,
+>    "ws_reverse_url": "",
+>    "ws_reverse_use_universal_client": true,
+>    "enable_heartbeat": true,
+>    "use_ws_reverse": "yes",
+>    "ws_reverse_reconnect_interval": 5000,
+>    "ws_reverse_reconnect_on_code_1000": "yes",
+>    "post_url": "",
+>    "access_token": "",
+>    "secret": "",
+>    "post_message_format": "string",
+>    "serve_data_files": false,
+>    "update_source": "github",
+>    "update_channel": "stable",
+>    "auto_check_update": false,
+>    "auto_perform_update": false,
+>    "thread_pool_size": 4,
+>    "server_thread_pool_size": 1,
+>    "show_log_console": false,
+>    "enable_backward_compatibility": true
+>}
+>```
 
 7) 启动`miraiOK.exe`，控制台出现登录提示后，在控制台输入
 
@@ -46,7 +80,7 @@ tata through mirai
 
 3) 关闭`miraiOK`，将`cqhttp-mirai-. *. * -all.jar`放入`plugins`文件夹，再次启动`miraiOK.exe`，等到控制台提示登录后关闭.
 
-4) 复制以下代码并更改`plugins\CQHTTPMirai\setting.yml`文件内容。
+4) ~~复制以下代码并更改`plugins\CQHTTPMirai\setting.yml`文件内容。~~ 獭窝现在下载的配置文件就是`setting.yml`,放到`plugins\CQHTTPMirai`文件夹下就行
 >``` yaml
 ># 本文件只测试了主窝 食材村(笔窝) 风窝 鸡窝，其他窝不一定适用，请自行尝试
 >debug: true
