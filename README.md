@@ -27,9 +27,15 @@ tata through mirai
 >```
 >[INFO] [MiraiNative] Native Plugin (w json) CQHTTP has been loaded with code 126
 >```
-则需要补全电脑的vc库，再进行下一步.
+则需要补全电脑的vc库，再进行下一步.  
+  
+6) 启动`miraiOK.exe`，控制台出现登录提示后，在控制台输入
 
-6) 更改`plugins\MiraiNative\data\io.github.richardchien.coolqhttpapi\config`文件夹内的`QQ号.json`文件  
+>login QQ账号 QQ密码
+
+并回车，进行登录。登录成功并且日志不动后，关闭`miraiOK.exe`.  
+
+7) 更改`plugins\MiraiNative\data\io.github.richardchien.coolqhttpapi\config`文件夹内的`QQ号.json`文件  
 "ws_reverse_url": "`獭窝ws地址`"  
 "post_url": "`塔塔露のurl`"  
 "access_token": "`你在獭窝申请獭獭的token`"  
@@ -65,7 +71,7 @@ tata through mirai
 >}
 >```
 
-7) 启动`miraiOK.exe`，控制台出现登录提示后，在控制台输入
+8) 启动`miraiOK.exe`，控制台出现登录提示后，在控制台输入
 
 >login QQ账号 QQ密码
 
